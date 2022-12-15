@@ -685,11 +685,11 @@
 			]
 		},
 		"CryptoEyesCollection_smart_contract.sol": {
-			"keccak256": "0xa4f9174c656c49254e251a5d56272b7728c0ff455bf13cfbed48cd771e135575",
+			"keccak256": "0xe0ee70fb68b162821722c22727e1bfc177046bf66c762b7c11c7940aaf2690f9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c02aacb9c79ebd14527bfc768e57a0fd1f96d716b8a1594efef5a0d52794633c",
-				"dweb:/ipfs/QmQYgcgLRgws7W2AYG84WkU5MrDQxmRhR3aSMcCxCCgPjF"
+				"bzz-raw://c1fd31717b395e86baaac574d3048f26d3847c575b6c32e55a0be484f578421c",
+				"dweb:/ipfs/QmNngrhwkHhZogNcqDFu728G7fDjMDYdLBoT68GFsYyGmU"
 			]
 		}
 	},

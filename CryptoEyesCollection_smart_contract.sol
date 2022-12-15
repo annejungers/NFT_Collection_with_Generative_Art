@@ -12,7 +12,7 @@ contract CryptoEyes is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
 
     Counters.Counter private _tokenIdCounter; 
     uint MAX_SUPPLY = 20;// to prevent people to mint more NFT than present in the collection
-    uint ownerSupply = 3; // Saving 3 NFTs for the owner
+    uint ownerSupply = 3; // Saving at least 3 NFTs for the owner
    
 
 
@@ -32,8 +32,10 @@ contract CryptoEyes is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
         
     }
 
+    //function for the owner to mint
     function mintOwner(address to, string memory uri) public onlyOwner{
         require(_tokenIdCounter.current() <= MAX_SUPPLY, "I'm sorry we reached the cap");
+        // require(balanceOf(owner) <= 3, "Max Mint per owner reached");
         uint256 tokenId = _tokenIdCounter.current();
         _tokenIdCounter.increment();
         _safeMint(to, tokenId);
