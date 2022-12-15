@@ -56,6 +56,27 @@ To generate our NFTs collection and the NFTs metadata
 ### 4. Have a look at OpenSea Testnet
 
 
+## Smart contract customization
+In comparison with the original ERC721 from Openzeppeling, we have added the following functionalities;
+
+1. A maximum supply of token to mint. 
+    If the maximum supply is reached during the minting, then we get an error message "I am sorry all NFTs have been minted"
+
+2. A functionalities in the constructor to start minting at 1 instead of 0 
+    -->  _tokenIDCounter.increment(); 
+
+3. a functionality to limit minting of NFTs to 1 per wallet (for people)
+    --> require(balanceOf(msg.sender) == 0, "Max Mint per wallet reached");
+    Here msg.sender is the address of the caller and the mint only happens if the caller does not have a NFT
+
+4. a function mintOwner() for the owner to mint up to 3 NFTs.
+
+
+
+
+
+
+
 
 
 
