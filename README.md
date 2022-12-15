@@ -53,6 +53,9 @@ To generate our NFTs collection and the NFTs metadata
 ### 3. Deploying the smart contract (+allow people to mint NFTs)
 
 
+### 4. Have a look at OpenSea Testnet
+
+
 
 
 

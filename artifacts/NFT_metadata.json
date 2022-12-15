@@ -880,11 +880,11 @@
 			]
 		},
 		"NFT_Collection_smart_contract.sol": {
-			"keccak256": "0x8b8a8865182dea432b8228f4f404cfaf52450267ad66d4bc48e5da202a1b6577",
+			"keccak256": "0x831aace2749258d96fa4fd5ce3218b2ab1ed45afc619dff6f1cc77e83dc6886b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://48da0fb79de590e73804d882a81933fc2419cac7a59099c1033127cdfd2f8a46",
-				"dweb:/ipfs/QmXefyPRugASQgHu1ZkGCV8qpTKSN4UrjH1fdsKLRqcGqp"
+				"bzz-raw://b2269b5f8b495a2eb3a6a0f452c04f3e231d26abd3809efb17f4d1d76b30aeba",
+				"dweb:/ipfs/QmTY7eFKrSRdRWdv87gdBgRSBzvbkRf2RGkGtTGBsTMNcL"
 			]
 		}
 	},

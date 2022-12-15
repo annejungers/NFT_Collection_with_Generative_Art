@@ -23,7 +23,7 @@ contract NFT is ERC721Enumerable, Ownable {
     string memory _initBaseURI
   ) ERC721(_name, _symbol) {
     setBaseURI(_initBaseURI);
-    mint(msg.sender, 20);
+    mint(msg.sender, 20); // we have 20 NFTs
   }
 
   // internal
@@ -109,5 +109,5 @@ contract NFT is ERC721Enumerable, Ownable {
   function removeWhitelistUser(address _user) public onlyOwner {
     whitelisted[_user] = false;
   }
-  
+
 }
